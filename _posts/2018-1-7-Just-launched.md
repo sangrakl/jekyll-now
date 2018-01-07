@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Just launched the own blog
+subtitle: "Greeting"
+categories: etc
+tags: github, git
 ---
 
 I'm Rocky Lee from S.Korea.
