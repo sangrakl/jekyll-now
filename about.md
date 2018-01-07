@@ -4,26 +4,26 @@ title: About
 permalink: /about/
 ---
 
-### Education
+# Education
 Graduated Yonsei Univ in S.korea (2009 - 2016)
 Majoring in Chemical Engineering
 
-### Work Experience
+# Work Experience
 ## Convenience., Ltd (Jan, 2016 - Current)
-# Developing the application named '佳選' tracing Imported Foods with QR Codes in China
+### Developing the application named '佳選' tracing Imported Foods with QR Codes in China
 JOB : Dev Team Leader
 
 ## RESPACE (Jan - Dec 2015)
-# Link the empty space with the people who want
+### Link the empty space with the people who want
 JOB : COO
 
 ## The POT (May - Nov 2014)
-# Flowerpot & Diary Service for children
+### Flowerpot & Diary Service for children
 JOB : COO
 
 
 
-### Skills
+# Skills
 ## WEB
 Html5, CSS3        : Intermediate
 Javascript, jQuery : Beginner
@@ -47,5 +47,5 @@ English            : Advanced
 Spanish, Japanese  : Beginner
 
 
-### Contact me
+# Contact me
 [sangrakl@gmail.com](mailto:sangrakl@gmail.com)
