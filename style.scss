@@ -4,7 +4,7 @@
 //
 // IMPORTS
 //
-
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: 'Noto Sans KR', sans-serif;;
   color: $darkerGray;
   font-weight: bold;
 
@@ -194,8 +194,8 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: 'Noto Sans KR', sans-serif;;
+  font-weight: 600;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -213,8 +213,9 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: 'Noto Sans KR', sans-serif;;
   font-size: 18px;
+
 
   @include mobile {
     float: none;
@@ -227,7 +228,7 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 1px;
 
     @include mobile {
@@ -240,6 +241,16 @@ nav {
 //
 // .main
 //
+
+.posts .cate-icon{
+  
+  background-color: grey;
+  border-radius: 4em;
+  color: white;
+  float: left;
+  padding: 2px 8px;
+  font-size: 15px;
+}
 
 .posts > .post {
   padding-bottom: 2em;
@@ -257,7 +268,7 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 19px;
     font-style: italic;
   }
 
@@ -270,6 +281,7 @@ nav {
     font-size: 15px;
   }
 }
+
 
 .wrapper-footer {
   margin-top: 50px;

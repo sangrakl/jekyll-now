@@ -6,10 +6,14 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+      <h1 style="font-size:24px;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div style="overflow: hidden;">
+      <div class="cate-icon">{{  post.categories }}</div>
+      <h1 style="float: right; margin-top: 0; font-size:16px; color: grey;">{{  post.date | date: "%B %e, %Y" }}</h1>
+    </div>
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.content | strip_html | truncatewords:20 }}
+        
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
