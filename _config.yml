@@ -15,13 +15,17 @@ avatar: https://sangrakl.github.io/avatar.png
 # Flags below are optional
 #
 
+
+favicon: https://sangrakl.github.io/avatar.png
+# favicon으로 사용할 image
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
   email: sangrakl@gmail.com
   facebook: 
   flickr:
-  github: github.com/sangrakl
+  github: sangrakl
   instagram:
   linkedin:
   pinterest:
