@@ -68,3 +68,28 @@ At Inception v4 : 5x5가 없이짐
 또한 1x7 , 7x1 같은 conv layer를 활용하여 receptive field를 매우 키우고 정작 사용된 parameter를 획기적으로 줄임
 
 왜 잘되는지는 알 수 없음. 그냥 저렇게 했더니 잘됐다더라.
+
+## 4. Resnet
+
+152 layers network
+
+방법론이 굉장히 범용적이여서 다양한 곳에 응용할 수 있음
+
+Is deeper network always better?
+
+What about vanishing/exploding gradients?
+
+> Better initialization methos / batch normalization / ReLU
+
+Any other Problems?
+
+> Overfitting?
+> *Degradation problem* : more depth but lower performance
+
+Residual building block : input과 desirable ouput의 차이를 학습
+
+유일한 제약 : input과 output의 dimension이 같아야 함
+
+여기서도 bottle architecture 사용해서 param 줄임
+
+한계 : 100개 정도의 layer는 문제 해결을 했는데, 1000개가 넘어가면 여전히 degradation 발생
