@@ -20,7 +20,7 @@ conv filter가 input image를 모두 slide하면서 check하기 때문에 대상
 
 Compositionality : Hierarchy Structure가 주는 장점이 있음
 
-> ![CNN의 기초](../images/2018-09-12-1.png)  
+> ![CNN의 기초](../images/2018-09-12-1.PNG)  
 > [input, output, filter]]
 
 input image의 channel이랑 filter의 channel의 개수는 같아야 함
